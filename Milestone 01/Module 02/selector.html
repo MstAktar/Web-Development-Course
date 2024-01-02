@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        p{
+            color:crimson;
+        }
+        #fifth{
+            font-size: 26px;
+        }
+        .yollow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        *{
+            /* margin: 50; */
+        }
+        input{
+            font-size: 30px;
+            color: red;
+        }
+        input[type="password"]{
+            background-color: aqua;
+        }
+        input[type="email"]{
+            background-color: rgb(223, 110, 172);
+        }
+        .css{
+            color:blue;
+            font-weight: bolder;
+        }
+        .blog{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <p> My <span class="css">First line CSS</span> </p>
+    <p class="yollow bold"> My Second line CSS </p>
+    <p> My Third line CSS </p>
+    <p class="yollow"> My Fourth line CSS </p>
+    <p id="fifth"> My Fifth line CSS </p>
+    <p class="bold"> My Sixth line CSS </p>
+    <p> My Seventh line CSS </p>
+    <ol>
+        <li>Element Selectors</li>
+        <li>Id Selectors</li>
+        <li class="bold yollow">Class selectors</li>
+        <li>Universe selectors</li>
+    </ol>
+    <div class="blog">
+        <h3> My blog </h3>
+        <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis minus consequuntur praesentium nostrum accusamus suscipit nam id possimus animi hic rerum placeat incidunt obcaecati odit dolor esse, quo unde.
+        </p>
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="email" name="" id="">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>
