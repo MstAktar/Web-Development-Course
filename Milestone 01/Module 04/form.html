@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section>
+                <h2>Please Fill-up the form</h2>
+                <form action="">
+                    <label for="name"> Your Name:
+                        <input id="name" type="text" placeholder="your name">
+                    </label>
+                    <label for="email">Your Email:
+                        <input type="email" name="" id="email" placeholder="your email">
+                    </label>
+                    <label for="phone">Your Phone Number:
+                        <input id="phone" type="text" placeholder="phone number">
+                    </label>
+
+                    <fieldset> 
+                        <legend> Pick one type</legend>
+                        <label for="chitoi">
+                            <input type="radio" id="chitoi" name="pitha"> Chitoi
+                        </label>
+                        <label for="vapa">
+                            <input type="radio" id="vapa" name="pitha"> Vapa
+                        </label>
+                        <label for="kalai">
+                            <input type="radio" id="kalai" name="pitha"> Kalai
+                        </label>
+                    </fieldset>
+<br>
+                    <fieldset>
+                        <legend> Pick one vorta</legend>
+                        <label for="shorisha">
+                            <input type="checkbox" name="vorta" id="sorisa"> Shorisha
+                        </label>
+                        <label for="shutki">
+                            <input type="checkbox" name="vorta" id="shutki"> Shutki
+                        </label>
+                        <label for="chilli">
+                            <input type="checkbox" name="vorta" id="chilli"> Chilli
+                        </label>
+                    </fieldset>
+<br>
+                    <fieldset>
+                        <legend> Special Instruction</legend>
+                        <textarea name="" id="" cols="140" rows="2"></textarea>
+                    </fieldset>
+                    <br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Value">
+                </form>
+            </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
